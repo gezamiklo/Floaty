@@ -24,9 +24,9 @@ open class FloatyLabel: UILabel {
 
   
   public override func textRect(forBounds bounds: CGRect, limitedToNumberOfLines numberOfLines: Int) -> CGRect {
-      return super.textRect(forBounds: bounds, limitedToNumberOfLines: numberOfLines).offsetBy(dx: insetX, dy: insetY)
+      return super.textRect(forBounds: bounds, limitedToNumberOfLines: numberOfLines).inset(by: UIEdgeInsets(top: -insetY, left: -insetX, bottom: -insetY, right: -insetX))
   }
-  
+
   public override func drawText(in rect: CGRect) {
       let insets = UIEdgeInsets.init(top: insetY, left: insetX, bottom: insetY, right: insetX)
       super.drawText(in: rect.inset(by: insets))
