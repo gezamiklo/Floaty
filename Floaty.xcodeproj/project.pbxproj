@@ -10,7 +10,7 @@
 		801D03EA21E70D6C00CD67F0 /* UIView+Draggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D03E921E70D6C00CD67F0 /* UIView+Draggable.swift */; };
 		84762CB01ECB4B98007C4ABD /* Floaty.h in Headers */ = {isa = PBXBuildFile; fileRef = 84762CA91ECB4B98007C4ABD /* Floaty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84762CB11ECB4B98007C4ABD /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAA1ECB4B98007C4ABD /* Floaty.swift */; };
-		84762CB21ECB4B98007C4ABD /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAB1ECB4B98007C4ABD /* FloatyDelegate.swift */; };
+		84762CB21ECB4B98007C4ABD /* FloatyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAB1ECB4B98007C4ABD /* FloatyLabel.swift */; };
 		84762CB31ECB4B98007C4ABD /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAC1ECB4B98007C4ABD /* FloatyItem.swift */; };
 		84762CB41ECB4B98007C4ABD /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAD1ECB4B98007C4ABD /* FloatyManager.swift */; };
 		84762CB51ECB4B98007C4ABD /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAE1ECB4B98007C4ABD /* FloatyViewController.swift */; };
@@ -22,7 +22,7 @@
 		801D03E921E70D6C00CD67F0 /* UIView+Draggable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Draggable.swift"; path = "Sources/UIView+Draggable.swift"; sourceTree = "<group>"; };
 		84762CA91ECB4B98007C4ABD /* Floaty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Floaty.h; path = Sources/Floaty.h; sourceTree = SOURCE_ROOT; };
 		84762CAA1ECB4B98007C4ABD /* Floaty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Floaty.swift; path = Sources/Floaty.swift; sourceTree = SOURCE_ROOT; };
-		84762CAB1ECB4B98007C4ABD /* FloatyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyDelegate.swift; path = Sources/FloatyDelegate.swift; sourceTree = SOURCE_ROOT; };
+		84762CAB1ECB4B98007C4ABD /* FloatyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyLabel.swift; path = Sources/FloatyLabel.swift; sourceTree = SOURCE_ROOT; };
 		84762CAC1ECB4B98007C4ABD /* FloatyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyItem.swift; path = Sources/FloatyItem.swift; sourceTree = SOURCE_ROOT; };
 		84762CAD1ECB4B98007C4ABD /* FloatyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyManager.swift; path = Sources/FloatyManager.swift; sourceTree = SOURCE_ROOT; };
 		84762CAE1ECB4B98007C4ABD /* FloatyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyViewController.swift; path = Sources/FloatyViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -66,7 +66,7 @@
 			children = (
 				84762CA91ECB4B98007C4ABD /* Floaty.h */,
 				84762CAA1ECB4B98007C4ABD /* Floaty.swift */,
-				84762CAB1ECB4B98007C4ABD /* FloatyDelegate.swift */,
+				84762CAB1ECB4B98007C4ABD /* FloatyLabel.swift */,
 				84762CAC1ECB4B98007C4ABD /* FloatyItem.swift */,
 				84762CAD1ECB4B98007C4ABD /* FloatyManager.swift */,
 				84762CAE1ECB4B98007C4ABD /* FloatyViewController.swift */,
@@ -163,7 +163,7 @@
 				801D03EA21E70D6C00CD67F0 /* UIView+Draggable.swift in Sources */,
 				E6159CB42747AE6000A2C525 /* FloatyLabel.swift in Sources */,
 				84762CB11ECB4B98007C4ABD /* Floaty.swift in Sources */,
-				84762CB21ECB4B98007C4ABD /* FloatyDelegate.swift in Sources */,
+				84762CB21ECB4B98007C4ABD /* FloatyLabel.swift in Sources */,
 				84762CB51ECB4B98007C4ABD /* FloatyViewController.swift in Sources */,
 				84762CB31ECB4B98007C4ABD /* FloatyItem.swift in Sources */,
 			);
