@@ -124,6 +124,7 @@ open class FloatyItem: UIView {
         _titleLabel?.insetY = FloatyManager.titleInsets.1
         _titleLabel?.backgroundColor = FloatyManager.titleBackground
         _titleLabel?.textColor = titleColor
+        _titleLabel?.layer.cornerRadius = FloatyManager.titleBackgroundRadius
         _titleLabel?.font = FloatyManager.defaultInstance().font
         addSubview(_titleLabel!)
       }

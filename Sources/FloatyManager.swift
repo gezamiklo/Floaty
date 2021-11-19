@@ -61,6 +61,7 @@ open class FloatyManager: NSObject {
   }
 
   public static var titleBackground = UIColor.clear
+  public static var titleBackgroundRadius: CGFloat = 3.0
   public static var titleInsets: (CGFloat, CGFloat) = (10.0, 10.0)
   
   open var font: UIFont {
