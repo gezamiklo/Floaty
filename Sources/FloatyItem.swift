@@ -115,11 +115,14 @@ open class FloatyItem: UIView {
   /**
    Item's title label.
    */
-  var _titleLabel: UILabel? = nil
-  @objc open var titleLabel: UILabel {
+  var _titleLabel: FloatyLabel? = nil
+  @objc open var titleLabel: FloatyLabel {
     get {
       if _titleLabel == nil {
-        _titleLabel = UILabel()
+        _titleLabel = FloatyLabel()
+        _titleLabel?.insetX = FloatyManager.titleInsets.0
+        _titleLabel?.insetY = FloatyManager.titleInsets.1
+        _titleLabel?.backgroundColor = FloatyManager.titleBackground
         _titleLabel?.textColor = titleColor
         _titleLabel?.font = FloatyManager.defaultInstance().font
         addSubview(_titleLabel!)

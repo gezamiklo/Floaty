@@ -59,6 +59,9 @@ open class FloatyManager: NSObject {
     fontDescriptor = UIFont.systemFont(ofSize: 20.0).fontDescriptor
     _font = UIFont(descriptor: fontDescriptor, size: 20)
   }
+
+  public static var titleBackground = UIColor.clear
+  public static var titleInsets: (CGFloat, CGFloat) = (10.0, 10.0)
   
   open var font: UIFont {
     get {

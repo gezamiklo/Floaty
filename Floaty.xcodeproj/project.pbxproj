@@ -15,6 +15,7 @@
 		84762CB41ECB4B98007C4ABD /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAD1ECB4B98007C4ABD /* FloatyManager.swift */; };
 		84762CB51ECB4B98007C4ABD /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAE1ECB4B98007C4ABD /* FloatyViewController.swift */; };
 		84762CB61ECB4B98007C4ABD /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762CAF1ECB4B98007C4ABD /* FloatyWindow.swift */; };
+		E6159CB42747AE6000A2C525 /* FloatyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6159CB32747AE5F00A2C525 /* FloatyLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		84762CAF1ECB4B98007C4ABD /* FloatyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyWindow.swift; path = Sources/FloatyWindow.swift; sourceTree = SOURCE_ROOT; };
 		B65A2E531D5975130045483D /* Floaty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Floaty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65A2E6C1D5975610045483D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supports/Info.plist; sourceTree = SOURCE_ROOT; };
+		E6159CB32747AE5F00A2C525 /* FloatyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatyLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				84762CAF1ECB4B98007C4ABD /* FloatyWindow.swift */,
 				801D03E921E70D6C00CD67F0 /* UIView+Draggable.swift */,
 				B65A2E6C1D5975610045483D /* Info.plist */,
+				E6159CB32747AE5F00A2C525 /* FloatyLabel.swift */,
 			);
 			name = Floaty;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				84762CB61ECB4B98007C4ABD /* FloatyWindow.swift in Sources */,
 				84762CB41ECB4B98007C4ABD /* FloatyManager.swift in Sources */,
 				801D03EA21E70D6C00CD67F0 /* UIView+Draggable.swift in Sources */,
+				E6159CB42747AE6000A2C525 /* FloatyLabel.swift in Sources */,
 				84762CB11ECB4B98007C4ABD /* Floaty.swift in Sources */,
 				84762CB21ECB4B98007C4ABD /* FloatyDelegate.swift in Sources */,
 				84762CB51ECB4B98007C4ABD /* FloatyViewController.swift in Sources */,
